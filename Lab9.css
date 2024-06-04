@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+}
+
+
+
+.dogs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.dog-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.dog-item:hover {
+    opacity: 0.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.dog-item img {
+    border-radius: 5em;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+
+.adopt {
+    margin-top: 20px;
+    margin-left: 16em;
+    padding: 10px 20px;
+    background-color: rgb(47, 47, 124);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.modal-information {
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 2em;
+    position: relative;
+    width: 60%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 1.5em;
+}
+
+.info {
+    margin-top: 10px;
+    margin-left: 0.5em;
+}
+
